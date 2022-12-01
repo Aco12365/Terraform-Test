@@ -16,7 +16,7 @@ variable "acr" {
     sku           = string
     admin_enabled = object({
       name        = string
-    )}
+    })
   })
 }
 
