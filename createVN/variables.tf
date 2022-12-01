@@ -14,7 +14,9 @@ variable "acr" {
   type = object({
     name          = string
     sku           = string
-    admin_enabled = bool
+    admin_enabled = object({
+      name        = string
+    )}
   })
 }
 
