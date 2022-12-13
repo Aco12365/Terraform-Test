@@ -9,6 +9,7 @@ variable "website_stg" {
     index_document = string
     admin_enabled = object({
       name        = string
+      phone       = string
     })
   })
 }
