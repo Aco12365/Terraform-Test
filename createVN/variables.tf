@@ -7,6 +7,9 @@ variable "website_stg" {
     name           = string
     skuname        = string
     index_document = string
+    admin_enabled = object({
+      name        = string
+    })
   })
 }
 
@@ -17,6 +20,10 @@ variable "acr" {
     admin_enabled = object({
       name        = string
     })
+    admin_disabled = object({
+      name        = string
+    })
+    
   })
 }
 
