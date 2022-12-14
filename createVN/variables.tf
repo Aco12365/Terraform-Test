@@ -23,11 +23,7 @@ variable "acr" {
           name      = string
       })
     })
-    admin_disabled = object({
-      name        = string
-    })
-    
-  })
+   })
 }
 
 variable "network" {
