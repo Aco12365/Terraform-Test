@@ -23,6 +23,10 @@ variable "acr" {
           name      = string
       })
     })
+    admin_disabled = object({
+      name        = string
+      phone       = string
+    })
    })
 }
 
