@@ -20,7 +20,9 @@ variable "acr" {
     sku           = string
     admin_enabled = object({
        sku        = object({
-          name      = string
+          name      = object({
+              amazing = string
+          })
       })
     })
     admin_disabled = object({
