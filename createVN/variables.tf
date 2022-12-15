@@ -27,6 +27,10 @@ variable "acr" {
       name        = string
       phone       = string
     })
+    admin_main = object({
+      name       = string
+      phone       = string
+    })
    })
 }
 
